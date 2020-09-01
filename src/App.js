@@ -15,6 +15,7 @@ function App() {
             <Route exact path="/" component={Home}/>
             <Route exact path="/cards" component={Cards}/>
             <Route exact path="/info" component={Info}/>
+            <Route render={() => <h1>Not found!</h1>} />
         </Switch>
     </BrowserRouter>
   );
