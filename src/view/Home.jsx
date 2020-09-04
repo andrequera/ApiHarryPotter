@@ -1,10 +1,10 @@
 import React from 'react'
+import imghome from '../img/home.jpg'
 
 const Home = () => {
     return (
         <div>
-            <h1>Potter-Api</h1>
-            <hr />
+            <img src={imghome}/>
         </div>
     )
 }
