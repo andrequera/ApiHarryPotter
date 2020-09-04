@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+body{
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.barra{
+  background-color: #873436;
+  background-image:"https://proxyworld.com.ar/wp-content/uploads/2019/11/banner-harrypotter-scaled.jpg";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.logo{
+  width: 200px;
+  margin: 10px;
+  margin-left: 20px;
+
+}
+#navbarDropdownMenuLink{
+  padding: 0px;
+}
+#navbarNavDropdown{
+  text-align: right;
+  margin-left: 500px;
+  padding: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#navbar{
+  background-color: #873436;
+  padding: 0px;
+}
+
+.navbar{
+  background-color: #873436;
+ 
+}
+
+.btnyo{
+  color:#873436;
+}
+
+a {
+margin-left: 10px;
+padding: 0px;
+}
+
+
+a:link {
+color: none;
+}
+
+a:visited {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a:focus {
+  color: white
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+color: black;
+}
+
+a:active {
+color: #873436;
+}
+
+.dropdown-menu{
+  background-color: #873436;
+  padding: 0px;
 }
